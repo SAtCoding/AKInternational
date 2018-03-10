@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	
+	<!-- Home Page -->
+	<definition name="login" extends="PublicPageLayout">
+		<put-attribute name="title" value="Ak International - Login" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/publicPages/login.jsp" />
+	</definition>
+	
+	<!-- Individual Pages -->
+	<definition name="unauhorized" extends="PublicPageLayout">
+		<put-attribute name="title" value="Ak International - UnAuthorized" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/publicPages/unAuthorized.jsp" />
+	</definition>
+	</tiles-definitions>

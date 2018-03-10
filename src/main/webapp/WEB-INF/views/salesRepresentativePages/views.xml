@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	
+	<!-- Home Page -->
+	<definition name="plannerView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Planner Dashboard" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/planner.jsp" />
+	</definition>
+	
+	
+	<definition name="dailyPannerView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Daily Planner" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/dailyPlanner.jsp" />
+	</definition>
+	
+	<definition name="activityPlannerView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Activity Planner" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/activityPlanner.jsp" />
+	</definition>
+	
+	<definition name="addChemistView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Add Chemist" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/addChemist.jsp" />
+	</definition>
+	
+	<definition name="addDoctorView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Add Doctor" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/addDoctor.jsp" />
+	</definition>
+	
+	<definition name="doctorInterfaceView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Doctor Interface" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/doctorInterface.jsp" />
+	</definition>
+	
+	<definition name="chemistInterfaceView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Chemist Interface" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/chemistInterface.jsp" />
+	</definition>
+	
+	<definition name="medicalDirectorInterfaceView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Medical Director Interface" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/medicalDirectorInterface.jsp" />
+	</definition>
+	
+	<definition name="paramedicInterfaceView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Paramedic Interface" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/paramedicInterface.jsp" />
+	</definition>
+	
+	<definition name="patientCoordinatorInterfaceView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Patient Coordinator Interface" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/patientCoordinatorInterface.jsp" />
+	</definition>
+	
+	<definition name="purchaseOfficerInterfaceView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Purchase Office Interface" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/purchaseOfficeInterface.jsp" />
+	</definition>
+	
+	<definition name="dailyReportView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Daily Report" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/dailyReport.jsp" />
+	</definition>
+	
+	<definition name="eventsView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Events" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/events.jsp" />
+	</definition>
+	
+	<definition name="expensesView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Expenses" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/expenses.jsp" />
+	</definition>
+	
+	<definition name="giftsPromotionsView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Gifts Promostions" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/giftsPromotions.jsp" />
+	</definition>
+	
+	<definition name="hQUpdatesView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - HQ Updates" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/hQUpdates.jsp" />
+	</definition>
+	
+	<definition name="leaveApplicationView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Leave Application" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/leaveApplication.jsp" />
+	</definition>
+	
+	<definition name="locateClinicChemistView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Locate Clinic Chemist" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/locateClinicChemist.jsp" />
+	</definition>
+	
+	<definition name="monthlyReportView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Monthly Report" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/monthlyReport.jsp" />
+	</definition>
+	
+	<definition name="pendingPaymentsView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Pending Payments" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/pendingPayments.jsp" />
+	</definition>
+	
+	<definition name="placeOrderView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Place Order" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/placeOrder.jsp" />
+	</definition>
+	
+	<definition name="productionInformationView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Production Information" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/productionInformation.jsp" />
+	</definition>
+	
+	<definition name="quarterlyReportView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Quaterly Report" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/quaterlyReport.jsp" />
+	</definition>
+	
+	<definition name="returnOrderView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Return Order" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/returnOrder.jsp" />
+	</definition>
+	
+	<definition name="stockManagementView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Stock Management" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/stockManagement.jsp" />
+	</definition>
+	
+	<definition name="surveyView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Survey" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/survey.jsp" />
+	</definition>
+	
+	<definition name="targetVsAchievementView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Target Vs Achievements" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/targetVsAchievements.jsp" />
+	</definition>
+	
+	<definition name="trackOrderView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Track Order" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/trackOrder.jsp" />
+	</definition>
+	
+	<definition name="wallOfFrameView" extends="salesRepresentativePageLayout">
+		<put-attribute name="title" value="Ak International - Wall Of Frame" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/salesRepresentativePages/wallOfFrame.jsp" />
+	</definition>
+	</tiles-definitions>

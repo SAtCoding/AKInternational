@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	<!-- Master Page -->
+	<definition name="PublicPageLayout" template="/WEB-INF/views/tiles_template/publicPageLayout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/views/tiles_template/header.jsp" />
+		<put-attribute name="slider" value="/WEB-INF/views/tiles_template/slider.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/views/tiles_template/menus.jsp" />
+		<put-attribute name="content" value="/WEB-INF/views/tiles_template/content.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/views/tiles_template/footer.jsp" />
+	</definition>	
+</tiles-definitions>
